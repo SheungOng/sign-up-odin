@@ -6,3 +6,31 @@ body,html{
 .by{
     font-size:0.9em;
 }
+
+h1,h2,h3,h4,h5{
+    font-family: "Oswald";
+}
+
+.logo-wrap{
+    color:#fff;
+    padding: 25px 0;
+    background-color: rgba(0,0,0,0.2);
+    top:20%;
+}
+
+.logo-wrap img{
+    max-width: 90px;
+}
+
+.logo-wrap h1{
+    margin-left: 15px;
+    font-size:69px;
+}
+
+.bg-grey{
+    background-color: #d3d3d3
+}
+
+.bg-white{
+    background-color:#fff
+}

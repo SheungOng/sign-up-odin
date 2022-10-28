@@ -8,23 +8,82 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-12 col-lg-4 ps-0 pe-0 position-relative text-center">
+<div class="container-fluid bg-grey">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-4 d-none d-md-block ps-0 pe-0 position-relative text-center position-relative">
+            <div class="d-flex w-100 position-absolute logo-wrap justify-content-center align-items-center">
+                <img class="img-fluid" src="./assets/images/odin-lined.png">
+                <h1>ODIN</h1>
+            </div>
             <img class="img-fluid" src="./assets/images/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg">
             <span class="by text-white position-absolute start-0 bottom-0 end-0 mb-3">Photo by <a href="https://unsplash.com/@filipz">Filip Zrnzevic</a> on <a href="https://unsplash.com/">Unsplash</a></span>
         </div>
-        <div class="col-12 col-lg-8">
+        <div class="col-12 col-md-8 px-0">
             <div class="container">            
-                test
+                <div class="px-3">
+                    <div class="mb-5">
+                        <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h3>
+                        <h3>Sign up <em>now</em> to get started.</h3>
+                        </br>
+                        <h3>You <em>know</em> you want to.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-white">
+                <div class="p-3">
+                    <h3 class="mb-4">Let's do this!</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="mb-4">
+                                    <label for="first-name" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" id="first-name">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-4">
+                                    <label for="last-name" class="form-label">Last Name</label>
+                                    <input type="text" class="form-control" id="last-name">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-4">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-4">
+                                    <label for="phone-number" class="form-label">Phone Number</label>
+                                    <input type="number" class="form-control" id="phone-number">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-4">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="password" required  onkeyup='check();'>
+                                    <span id='message'></span>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="mb-4">
+                                    <label for="confirm-password" class="form-label">Confirm Password</label>
+                                    <input type="confirm-password" class="form-control" id="confirm-password" required  onkeyup='check();'>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
 </div>
 </body>
 <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/js/custom.js"></script>
 </html>
