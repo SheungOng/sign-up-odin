@@ -34,3 +34,30 @@ h1,h2,h3,h4,h5{
 .bg-white{
     background-color:#fff
 }
+
+.btn{
+    font-size: 18px;
+    width: 100%;
+    max-width: 210px;
+    min-height: 50px;
+    background-color: #2E5B3A;
+    border-color:#2E5B3A;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: #2E5B3A;
+    border-color:#2E5B3A;
+}
+
+a{
+    text-decoration: none;
+    color:#2E5B3A;
+    font-weight: bold;
+}
+
+a:hover{
+    color:#2E5B3A;
+    font-weight: bold;
+    text-decoration: underline;
+}
